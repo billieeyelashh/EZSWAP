@@ -9,8 +9,8 @@ const TokenPrice = ({ selectedChain, fromToken, amount }) => {
   });
   return (
     <Fade in={data?.usdPrice && amount}>
-      <Box mt="2" transitionDelay={200}>
-        ~$ {formateNumber(data?.usdPrice * amount)}
+      <Box mt="2" transitionDelay={200} >
+        {formateNumber(data?.usdPrice * amount)} USD
       </Box>
     </Fade>
   );
