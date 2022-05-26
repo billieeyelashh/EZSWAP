@@ -19,7 +19,7 @@ export default function howtouse() {
     <Box bg={colorMode == "light" ? "#0C1221" : "gray.500"} minH="100vh">
       <Header />
       
-        <howtouse />
+        <Howtouse />
       
       <Footer />
     </Box>

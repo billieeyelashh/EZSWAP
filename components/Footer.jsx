@@ -13,7 +13,7 @@ const Footer = () => {
     role="contentinfo"
     py={{
       base: '12',
-      md: '16',
+      md: '',
     }}
   >
     <Stack
