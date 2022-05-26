@@ -17,8 +17,9 @@ const Header = () => {
       flexDir={["column", "row"]}
       alignItems="center"
     >
-      
-      <Text fontSize="4xl" color = '#FDB813' fontWeight = '1000'>EZSWAP</Text>
+      <Link href={`/`}>
+      <Button fontSize="4xl" color = '#FDB813' fontWeight = '1000' bg = '#0C1221'  _hover={{ bg: '#0C1221' }}>EZSWAP</Button>
+      </Link>
       <Spacer />
       
       <Box display="flex" mt={["4", "0"]}>
