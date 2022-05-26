@@ -4,6 +4,7 @@ import { useMoralis } from "react-moralis";
 import Header from "../components/Header";
 import SelectChain from "../components/SelectChain";
 import SwapTokens from "../components/SwapTokens";
+import Footer from "../components/Footer";
 
 export default function Home() {
   const { colorMode } = useColorMode();
@@ -35,6 +36,8 @@ export default function Home() {
           <SwapTokens selectedChain={selectedChain} />
         </Box>
       </Box>
+      <Footer />
     </Box>
+    
   );
 }
