@@ -2,6 +2,8 @@ import { Box, Button, Spacer, Text, useColorMode } from "@chakra-ui/react";
 import { useMoralis } from "react-moralis";
 import { ColorModeSwitcher } from "./ColorModeSwitcher";
 import { FaSignOutAlt as LogoutIcon } from "react-icons/fa";
+import Link from 'next/link'
+
 
 const Header = () => {
   const { colorMode } = useColorMode();
@@ -15,8 +17,10 @@ const Header = () => {
       flexDir={["column", "row"]}
       alignItems="center"
     >
+      
       <Text fontSize="4xl" color = '#FDB813' fontWeight = '1000'>EZSWAP</Text>
       <Spacer />
+      
       <Box display="flex" mt={["4", "0"]}>
         {user?.id ? (
           <Button
