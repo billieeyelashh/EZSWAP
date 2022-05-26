@@ -4,8 +4,6 @@ import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa'
 import Link from 'next/link'
 
 
-
-
 const Footer = () => {
   return (
     <Container
@@ -13,7 +11,7 @@ const Footer = () => {
     role="contentinfo"
     py={{
       base: '12',
-      md: '',
+      md: '16',
     }}
   >
     <Stack

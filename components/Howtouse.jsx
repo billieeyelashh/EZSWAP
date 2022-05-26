@@ -1,4 +1,4 @@
-import {Button, ButtonGroup, Container, IconButton, Stack, Text, Center} from '@chakra-ui/react'
+import {Container, Stack, Text} from '@chakra-ui/react'
 import * as React from 'react'
 
 const Howtouse = () => {

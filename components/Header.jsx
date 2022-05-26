@@ -1,6 +1,5 @@
 import { Box, Button, Spacer, Text, useColorMode } from "@chakra-ui/react";
 import { useMoralis } from "react-moralis";
-import { ColorModeSwitcher } from "./ColorModeSwitcher";
 import { FaSignOutAlt as LogoutIcon } from "react-icons/fa";
 import Link from 'next/link'
 
