@@ -1,7 +1,6 @@
 import {Button, ButtonGroup, Container, IconButton, Stack, Text, Center} from '@chakra-ui/react'
 import * as React from 'react'
 import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa'
-import { Logo } from './Logo'
 
 
 const Footer = () => {
@@ -33,7 +32,7 @@ const Footer = () => {
             icon={<FaTwitter fontSize="1.25rem" />}
             _hover={{ bg: '#F04E23' }}
           />
-          
+
            <Button variant="link" fontSize ="sm" color = "subtle">How to use</Button>
             <Button variant="link" fontSize ="sm" color = "subtle">About</Button>
         </ButtonGroup>
