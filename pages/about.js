@@ -18,6 +18,7 @@ export default function about() {
   return (
     <Box bg={colorMode == "light" ? "#0C1221" : "gray.500"} minH="100vh">
       <Header />
+
         <About />
 
       <Footer />
