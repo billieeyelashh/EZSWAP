@@ -1,10 +1,10 @@
 import { Box, useColorMode } from "@chakra-ui/react";
 import { useEffect, useState } from "react";
 import { useMoralis } from "react-moralis";
-import Header from "../components/Header";
+import Header from "../components/Header/Header";
 import SelectChain from "../components/SelectChain";
 import SwapTokens from "../components/SwapTokens";
-import Footer from "../components/Footer";
+import Footer from "../components/Footer/Footer";
 
 export default function Home() {
   const { colorMode } = useColorMode();

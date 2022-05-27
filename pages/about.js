@@ -1,9 +1,9 @@
 import { Box, useColorMode } from "@chakra-ui/react";
 import { useEffect} from "react";
 import { useMoralis } from "react-moralis";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
-import About from "../components/About";
+import Header from "../components/Header/Header";
+import Footer from "../components/Footer/Footer";
+import About from "../components/Subpag/About";
 
 export default function about() {
  
