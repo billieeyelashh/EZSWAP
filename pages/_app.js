@@ -1,4 +1,3 @@
-import "@fontsource/cairo";
 import { ChakraProvider } from "@chakra-ui/react";
 import { MoralisProvider } from "react-moralis";
 import theme from "../theme";

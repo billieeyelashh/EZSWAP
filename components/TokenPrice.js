@@ -1,6 +1,6 @@
 import { Box, Fade } from "@chakra-ui/react";
 import { useTokenPrice } from "react-moralis";
-import formateNumber from "../helpers/formateNumber";
+import formateNumber from "../helpers/formateNum";
 
 const TokenPrice = ({ selectedChain, fromToken, amount }) => {
   const { data } = useTokenPrice({

@@ -26,7 +26,7 @@ import {
   FaChevronDown as ChevronDownIcon,
   FaArrowDown as ArrowDownIcon,
 } from "react-icons/fa";
-import InputWithToToken from "./InputWithToToken";
+import InputWithToToken from "./InputToken";
 import SwapButton from "./SwapButton";
 
 const SwapTokens = ({ selectedChain }) => {
