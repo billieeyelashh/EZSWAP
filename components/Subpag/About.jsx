@@ -40,7 +40,7 @@ const About = () => {
       
       <Text color = 'white'  fontWeight = 'bold' fontSize = 'xl'>Motivation 
       </Text>
-     
+      
       <Text color = 'grey'>
           A lot of modern Software suffers from severe over-engineering. 
           Ezswap tries to bring only the features users really need.
