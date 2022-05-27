@@ -38,7 +38,7 @@ const About = () => {
       Also improving the UI and refactoring some code.  
       </Text>
       
-      <Text color = 'white'  fontWeight = 'bold' fontSize = 'xl'>Motiviation 
+      <Text color = 'white'  fontWeight = 'bold' fontSize = 'xl'>Motivation 
       </Text>
      
       <Text color = 'grey'>

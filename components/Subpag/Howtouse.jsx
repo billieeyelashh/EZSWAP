@@ -25,8 +25,8 @@ const Howtouse = () => {
      
       </Stack>
       <Text color = 'grey'>
-      This is currently only a placeholder so theres nothing to read. So here is a placeholder. Are there other words for placeholders.
-      Ok sorry that is enough.
+      This currently is only a placeholder so theres nothing to read. So here is a placeholder. Are there other words for placeholders.
+      Ok think u get the point that this is indeed a placeholder.
       </Text>
       
     </Stack>
