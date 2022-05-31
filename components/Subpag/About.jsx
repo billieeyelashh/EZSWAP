@@ -28,7 +28,8 @@ const About = () => {
       <Text color = 'grey'>
       Ezswap aims to be an easy to use Crosschain DEX developed by the
       EzBlock Organisation. Unfournately that is currently only me lol. But feel
-      free to contact me if you want to help out  or take a look at the repo.
+      free to contact me if you want to help out or take a look at the repo.
+      Currently almost zero fee crosschain swaps are possible between Avalance, Binance, Polygon and Ethereum.
       </Text>
 
       <Text color = 'white'  fontWeight = 'bold' fontSize = 'xl'>That is cool but what is currently worked on </Text>
