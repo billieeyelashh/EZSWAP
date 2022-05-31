@@ -25,7 +25,7 @@ const Footer = () => {
         
         <ButtonGroup variant="ghost" color = 'grey' >
          
-          <IconButton as="a" href="https://github.com/lona9a/EZSWAP" aria-label="GitHub" icon={<FaGithub fontSize="1.25rem" />}  _hover={{ bg: '#F04E23' }}/>
+          <IconButton as="a" href="https://github.com/" aria-label="GitHub" icon={<FaGithub fontSize="1.25rem" />}  _hover={{ bg: '#F04E23' }}/>
           <IconButton
             as="a"
             href="https://twitter.com"
