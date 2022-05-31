@@ -23,9 +23,9 @@ const Footer = () => {
 
       <Stack justify="space-between" direction="row" align="center">
         
-        <ButtonGroup variant="ghost" >
+        <ButtonGroup variant="ghost" color = 'grey' >
          
-          <IconButton as="a" href="https://github.com/lona9a/EZSWAP" aria-label="GitHub" icon={<FaGithub fontSize="1.25rem" />}  _hover={{ bg: '#F04E23' }}/>
+          <IconButton as="a" href="https://github.com/" aria-label="GitHub" icon={<FaGithub fontSize="1.25rem" />}  _hover={{ bg: '#F04E23' }}/>
           <IconButton
             as="a"
             href="https://twitter.com"
@@ -40,7 +40,7 @@ const Footer = () => {
             <Button variant="link" fontSize ="sm" color = "subtle">About</Button>
                 </Link>
         </ButtonGroup>
-        <Text fontSize="sm" color="subtle">
+        <Text fontSize="sm" color="grey">
         &copy; {new Date().getFullYear()} EZSWAP build with ❤️
       </Text>
      
